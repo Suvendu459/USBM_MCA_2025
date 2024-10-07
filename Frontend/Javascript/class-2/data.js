@@ -38,7 +38,7 @@ let isSingle=true;
 console.log(typeof isMarried);
 console.log(typeof isSingle);
 console.log(isMarried);
-console.log(isSingle);*/
+console.log(isSingle);
 
 //string
 let name = "SUVENDU";
@@ -49,4 +49,27 @@ let gender = "Male";
 let pincode = 759015;
 let college = "USBM";
 let batch = 2025;
-console.log(`Name of the student is : ${name} ,City is : ${city},Rollno is : ${rollno},Age is : ${age},Gender is : ${gender},Pincode is : ${pincode},College name is : ${college},Batch is : ${batch}`);
+console.log(`Name of the student is : ${name} ,City is : ${city},Rollno is : ${rollno},Age is : ${age},Gender is : ${gender},Pincode is : ${pincode},College name is : ${college},Batch is : ${batch}`)
+console.log(city.length);
+console.log(100+"101")*/
+
+// Question(1)
+   let foodPrice = 200;
+   let drinkPrice = 100;
+   let totalBill = foodPrice+drinkPrice;
+   let tip = (totalBill*10)/100;
+   let finalAmount = totalBill+tip;
+   console.log(`Total bill is : ${totalBill},The tip is : ${tip},The final amount is : ${finalAmount}`);
+
+// Question(2)
+   let originalPrice = 200;
+   let discount = 50;
+   let finalPrice = originalPrice-discount;
+   console.log(`The final price is : ${finalPrice},Discounted price is : ${discount}`);
+
+//Question(3)
+   let productPrice = 500;
+   let salesTaxRate = 5;
+   let taxAmount = (productPrice*salesTaxRate)/100;
+   let totalPrice = productPrice+taxAmount;
+   console.log(`The tax amount is : ${taxAmount},The total price is : ${totalPrice}`);
