@@ -11,7 +11,7 @@ console.log(result);
 let num3=17;
 let odd=(num3%2);
 console.log(odd);
-//Exponential operator:
+//Exponential operator: 
 let square = 2**2;
 console.log(square);
 //relational operator

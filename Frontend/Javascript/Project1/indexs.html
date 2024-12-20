@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">      
+</head>
+<body>
+    <nav>
+        <li>Home</li>
+        <li>About</li>
+        <li>Login</li>
+        <li>Password</li>
+    </nav>
+  <!-- Main content area -->
+  <main>
+    <section class="form-container">
+      <h2>Sign Up</h2>
+      <form id="signup-form">
+        <fieldset class="input-group">
+          <label for="username">Username :</label>
+          <input type="text" id="username" name="username" required>
+        </fieldset>
+
+        <fieldset class="input-group">
+          <label for="email">Useremail :</label>
+          <input type="email" id="email" name="email" required>
+        </fieldset>
+
+        <fieldset class="input-group">
+          <label for="password">Password :</label>
+          <input type="password" id="password" name="password" required>
+        </fieldset>
+
+        <fieldset class="input-group">
+          <label for="confirm-password">Confirm Password :</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        </fieldset>
+
+        <fieldset class="input-group">
+          <button type="submit" id="signupBtn">Sign Up</button>
+        </fieldset>
+
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Link to the JavaScript file -->
+  <script src="index.js"></script>
+</body>
+</html>
